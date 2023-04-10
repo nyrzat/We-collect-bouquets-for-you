@@ -1,0 +1,542 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    line-height: 1.3;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.nav-text{
+    color: #B19CD7
+}
+.monday2{
+    font-weight: 700;
+    color: #6141B8;
+}
+.number-info{
+    font-size: 18px;
+    font-weight: 800;
+}
+.number-{
+    margin-top: 38px;
+}
+.numbers{
+    color: #6141B8;
+}
+.df{
+    display: flex;
+}
+.icon-el{
+    position: relative;
+    padding-left: 50px;
+    margin: 20px 20px;
+
+}
+.icon-el::before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid #b19cd7;
+}
+
+.monday1::before{
+    top: -3px;
+    left: 0;
+    background: url(../img/nav-sprite\ .png) 0px 0px;
+}
+.monday2::before{
+    top: -12px;
+    left:0;
+    background: url(../img/nav-sprite\ .png) 1px -86px;
+}
+.number-info::before{
+    top: -6px;
+    left: 0;
+    background: url(../img/nav-sprite\ .png) -2px -43px;
+}
+.nac-right{
+    display: flex;
+    align-items: center;
+}
+.main-block{
+    background-image: url(../img/singer.png);
+    background-color: #F5F1F8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+.main-title{
+    font-size: 56px;
+    font-weight: 800;
+    margin-bottom: 79px;
+
+}
+
+.main-icon-top{
+    width: 278px;
+    padding-right: 45px;
+
+}
+.comfortable-text{
+    width: 278px;
+    margin-bottom: 43px;
+}
+.comfortable{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 37px;
+}
+.comfortable::before{
+    content: "";
+    width: 87px;
+    height: 87px;
+    position: absolute;
+    top: -54px;
+    left: 2px;
+}
+.relax-with-friends::before{
+    background: url(../img/how-do-like-idea.png) -11px -11px;
+}
+.dance-and-sing::before{
+    background: url(../img/how-do-like-idea.png)  -6px -249px;
+    background-size: 95px;
+}
+.get-beautiful-photos::before{
+    background: url(../img/how-do-like-idea.png) -7px -164px;
+    background-size: 95px;
+}
+.you-and-girlfriends::before{
+    background: url(../img/how-do-like-idea.png) -7px -78px;
+    background-size: 95px;
+}
+.what-offer-title{
+    font-size: 56px;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    margin-bottom: 56px;
+    padding-top: 152px;
+    z-index: 1;
+}
+.main-cards{
+    background-image: url(../img/Mask.png);
+    background: #F5F1F8;
+    margin-top: 50px;
+}
+.info-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 270px;
+    height: 307px;
+    font-size: 20px;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 19px rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+    transition: 1s;
+}
+.without-strangers{
+    position: absolute;
+    top: 80px;
+    left: 27px;
+}
+.without-strangers::before{
+    content: "";
+    width: 81px;
+    height: 81px;
+    position: absolute;
+    top: -80px;
+    left: 0;
+
+    background-image: url(../img/we-offen_sprites.png);
+}
+.card:hover{
+    background: #B19CD7;
+    color: #fff;
+}
+.non::before{
+    background: url(../img/we-offen_sprites.png) 0px -295px;
+    background-size: 110%;
+}
+.big-screen::before{
+    background: url(../img/we-offen_sprites.png) 10px -55px;;
+    background-size: 94%
+}
+.can-listen::before{
+    background: url(../img/we-offen_sprites.png) -1px -113px;
+    background-size: 94%
+}
+.bring::before{
+    background: url(../img/we-offen_sprites.png) -2px 7px;
+    background-size: 94%
+}
+.admimistrator::before{
+    background: url(../img/we-offen_sprites.png) 4px -252px;
+    background-size: 94%
+}
+.possibility-organize::before{
+    background: url(../img/we-offen_sprites.png)  1px -387px;
+    background-size: 94%
+}
+.need-waste-time::before {
+    background: url(../img/we-offen_sprites.png) 6px -183px;
+    background-size: 94%;
+}
+.beatiful::before{
+    background: url(../img/we-offen_sprites.png)  -2px -457px;
+    background-size: 94%
+}
+.card-title{
+    font-weight: 800;
+}
+.free-view-block{
+    margin-top: 71px;
+}
+.main-block-info{
+    background-image: url(../img/section-5.png);
+    padding: 150px 150px 150px 0;
+}
+.under-color{
+    width: 110%;
+    height: 425px;
+    margin:  auto;
+    background: linear-gradient(180deg, rgba(177,156,215,1) 32%, rgba(227,168,212,1) 97%);
+    border-radius: 40px;
+}
+.outside{
+    width: 90%;
+    height: 425px;
+    margin-top: 38px;
+    background: #FFFFFF;
+    box-shadow: 0px 19px 19px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    margin:  auto;
+}
+.outside-block{
+    position: relative;
+    width: 734px;
+    padding-left: 35px;
+    z-index: 5;
+}
+.outside-title{
+    font-size: 47px;
+    position: relative;
+    font-weight: 800;
+    margin-bottom: 22px;
+    z-index: 1;
+
+}
+.outside-text{
+    font-size: 26px;
+}
+
+.number{
+    background: #d6c7e1;
+    color: #181A2F;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding: 33px 89px 33px 38px;
+}
+.nunber-icon{
+    font-size: 24px;
+    width: 100%;
+}
+.form{
+    flex-wrap: wrap;
+}
+.form-btn{
+    background: linear-gradient(180deg, #FFC619 0%, #EC5128 100%);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    text-shadow: 0px 1px 1px #E0945D;
+    color: #fff;
+    border-radius: 30px;
+    padding:33px 87px;
+}
+.blue{
+    color: blue;
+}
+.girl{
+    width: 62%;
+    position: absolute;
+    top: -62px;
+    right: -237px;
+    z-index: -1;
+}
+.block-form-img{
+    display: flex;
+    justify-content: space-between;
+}
+.info-bottom{
+    margin-bottom: 27px;
+}
+.kristina-kerisin-bag{
+    background: #F5F1F8; 
+    background-image: url(../img/section-bag-4.png);
+    padding: 87px;
+
+}
+.row-block{
+    display: flex;
+    justify-content: space-between;
+}
+.kristina-block{
+    max-width: 634px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    padding: 0 30px;
+}
+.user-title{
+    font-size: 20px;
+}
+.info-block{
+    padding-left: 137px;
+    position: relative;
+    margin-bottom: 64px;
+    padding-top: 53px;
+}   
+.info-block::before{
+    content: "";
+    width: 119px;
+    height: 119px;
+    position: absolute;
+    top: 16px;
+    left: 11px;
+    background-image: url(../img/kristina.png);
+}
+.kresina-before{
+    padding-top: 53px;
+    position: relative;
+}
+.kresina-before::before{
+    content: "";
+    width: 119px;
+    height: 119px;
+    position: absolute;
+    top: 16px;
+    left: 9px;
+    background-image: url(../img/ksenia.png);
+}
+.hello-am-girl{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.user-text{
+    margin-bottom: 23px;
+    font-size: 16px;
+}
+.cost-block-bag{
+    background-image: url(../img/stoimost.png);
+    padding: 110px;
+}
+.cost-info{
+    max-width: 353px;
+}
+.cost-row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.cost-title{
+    font-weight: 800;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(87.21deg, #B19CD7 0%, #6141B8 100%);
+    padding: 32px 113px 42px 59px;
+}
+.cistt-bag{
+    background: #FFFFFF;
+    box-shadow: 0px 14px 19px rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+}
+.cost-porag{
+    display: flex;
+    justify-content: space-between;
+}
+.cost-ttitle2{
+    font-weight: 800;
+    font-size: 50px;
+}
+.cost-title3{
+    text-align: right;
+    color: #6141B8;
+    font-size: 20px;
+    padding-right: 6px;
+}
+.cost-icon{
+    width: 27px;
+}
+.item{
+    width: 317px;
+    font-size: 20px;
+    margin-bottom: 41px;
+    padding-left: 59px;
+    transition: 1s;
+}
+.cost-text-txt:hover{
+    color: #EC5128;
+}
+.cost-btn{
+    text-align: center;
+    display: inline-block;
+    background: linear-gradient(180deg, #FFC619 0%, #EC5128 100%);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 1px 1px #E0945D;
+    color: #fff;
+    padding: 33px 115px;
+    border-radius: 30px;
+    margin: 21px;
+}
+.dico-bag{
+    background-image: url(../img/mup.png);
+    padding: 109px
+}
+.Walking-from-metro-info{
+    display: flex;
+    justify-content: space-between;
+}
+.Walking-from-metro-block{
+    width: 431px;
+}
+.walking-title{
+    font-size: 56px;
+    margin-bottom: 31px;
+}
+.walking-text{
+    font-size: 26px;
+    color: #181A2F;
+    margin-bottom: 40px;
+}
+.metro1-icon{
+    position: relative;
+}
+.car-icon{
+    position: relative;
+}
+.car-icon::before{
+    content: "";
+    width: 93px;
+    height: 65px;
+    position: absolute;
+    top: 17px;
+    left: -96px;
+    background: url(../img/metro-css-sprite.png) 2px -72px;;
+}
+.metro1-icon::before{
+    content: "";
+    width: 77px;
+    height: 60px;
+    position: absolute;
+    top: 17px;
+    left: -88px;
+    background: url(../img/metro-css-sprite.png)-10px -10px;
+}
+.map{
+    filter: drop-shadow(0px 14px 19px rgba(0, 0, 0, 0.08));
+    border-radius: 40px;
+    font-size: 26px;
+}
+.map-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.map-icons{
+    position: relative;
+}
+.map-icons::before{
+    content: "";
+    width: 40px;
+    height: 73px;
+    position: absolute;
+    top: 4px;
+    left: -51px;
+    background: url(../img/map-icoonn.png) -10px -10px;
+}
+.book-party-title{
+    font-size: 47px;
+    margin-bottom: 30px;
+}
+.book-party-text{
+    font-size: 26px;
+    margin-bottom: 38px;
+}
+.Book-bachelorette-party0block{
+    background-image: url(../img/top-girl-bag.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+}
+.book-number{
+    background: #F5F1F8;
+    border: none;
+    outline: none;
+    color: #181A2F;
+    padding: 30px 397px 33px 38px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.book-party-link-text{
+    display: flex;  
+}
+.book-btn{
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 1px #E0945D;
+    background: linear-gradient(180deg, #FFC619 0%, #EC5128 100%);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 32px 75px;
+    margin-bottom: 90px;
+}
+.book-text-party{
+    padding-left: 40px;
+}
+
+.and-number-map{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+.itemm{
+    margin-bottom: 20px;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-around;
+    background: #181A2F;
+    color: #fff;
+    padding: 23px;
+}

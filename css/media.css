@@ -1,0 +1,466 @@
+@media screen and (max-width: 1000px){
+    .icon{
+        width: 30px;
+        height: 30px;
+    }
+    .icon-el::before{
+        width: 30px;
+        height: 30px;
+       
+    }
+    .number-info{
+        font-size: 15px;
+    }
+    .monday1::before{
+        background: url(../img/nav-sprite\ .png) 0px 0px;
+        background-size: 30px;
+    }
+    .monday2::before{
+        background: url(../img/nav-sprite\ .png) 2px -150px;
+        background-size: 30px;
+    }
+    .number-info::before{
+        background: url(../img/nav-sprite\ .png) 1px -29px;
+        background-size: 30px;
+        background-repeat: no-repeat;
+    }
+ 
+}
+@media screen and (max-width: 810px){
+    .icon{
+        width: 25px;
+        height: 25px;
+    }
+    .title{
+        font-size: 11px;
+    }
+    .icon-el{
+        font-size: 11px;
+        padding-left: 34px;
+    }
+    .icon-el::before{
+        width: 30px;
+        height: 30px;
+    }
+    .number-info{
+        font-size: 11px;
+    }
+    .monday1::before{
+        background: url(../img/nav-sprite\ .png) 0px 0px;
+        background-size: 30px;
+    }
+    .monday2::before{
+        background: url(../img/nav-sprite\ .png) 2px -150px;
+        background-size: 30px;
+    }
+    .number-info::before{
+        background: url(../img/nav-sprite\ .png) 1px -26px;
+        background-size: 27px;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width: 701px){
+    .main-title{
+        font-size: 42px;
+    }
+    .comfortable::before{
+        width: 55px;
+        height: 55px;
+    }
+    .relax-with-friends::before{
+        background: url(../img/how-do-like-idea.png) -9px 6px;
+        background-size: 70px;
+    }
+    .dance-and-sing::before{
+        background: url(../img/how-do-like-idea.png)  -8px -183px;
+        background-size: 70px;
+    }
+    .get-beautiful-photos::before{
+        background: url(../img/how-do-like-idea.png) -5px -121px;
+        background-size: 70px;
+    }
+    .you-and-girlfriends::before{
+        background: url(../img/how-do-like-idea.png) 3px -61px;
+        background-size: 70px;
+    }
+}
+@media screen and (max-width: 685px){
+    .main-title{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 650px){
+    .icon{
+        width: 25px;
+        height: 25px;
+    }
+    .title{
+        font-size: 9px;
+    }
+    .icon-el{
+        font-size: 9px;
+        padding-left: 34px;
+    }
+    .icon-el::before{
+        width: 30px;
+        height: 30px;
+    }
+    .number-info{
+        font-size: 9px;
+    }
+    .monday1::before{
+        background: url(../img/nav-sprite\ .png) 3px 3px;
+        background-size: 24px;
+    }
+    .monday2::before{
+        background: url(../img/nav-sprite\ .png) 2px -150px;
+        background-size: 30px;
+    }
+    .number-info::before{
+        background: url(../img/nav-sprite\ .png) 2px -21px;
+        background-size: 24px;
+        background-repeat: no-repeat;
+    }
+    .nav{
+        flex-wrap: wrap;
+    }
+    .icon-el{
+        margin: 20px 20px;
+    }
+}
+@media screen and (max-width: 659px){
+    .main-title{
+        font-size: 30px;
+    }
+    .comfortable-text{
+        width: 231px;
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 573px){
+    .main-title{
+        font-size: 29px;
+    }
+    .comfortable{
+        flex-wrap: wrap;
+    }
+    .relax-with-friends::before{
+        background: url(../img/how-do-like-idea.png) -4px 5px;
+        background-size: 55px;
+    }
+    .dance-and-sing::before{
+        background: url(../img/how-do-like-idea.png) -4px -136px;
+        background-size: 54px;
+        margin-top: 13px;
+    }
+    .get-beautiful-photos::before{
+        background: url(../img/how-do-like-idea.png) -1px -86px;
+        background-size: 55px;
+    }
+    .you-and-girlfriends::before{
+        background: url(../img/how-do-like-idea.png) -1px -37px;
+        background-size: 56px;
+        margin-top: 2px;
+    }
+}
+@media screen and (max-width: 570px){
+    .comfortable-text{
+        margin-bottom: 41px;
+    }
+}
+
+@media screen and (max-width: 1182px){
+    .what-offer-title {
+        font-size: 45px
+    }
+    .card {
+        width: 229px;
+        height: 229px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 992px){
+    .card{
+        width: 178px;
+        height: 178px;
+        font-size: 9px;
+    }
+    .without-strangers::before {
+        content: "";
+        width: 64px;
+        height: 64px;
+    }
+    .bring::before {
+        background: url(../img/we-offen_sprites.png) -5px 7px;
+        background-size: 75px;
+    }
+    .big-screen::before {
+        background: url(../img/we-offen_sprites.png) 1px -51px;
+        background-size: 70px;
+    }
+    .can-listen::before {
+        background: url(../img/we-offen_sprites.png) -1px -103px;
+        background-size: 70px;
+    }
+    .admimistrator::before {
+        background: url(../img/we-offen_sprites.png) -2px -229px;
+        background-size: 70px;
+    }
+    .possibility-organize::before {
+        background: url(../img/we-offen_sprites.png) -4px -849px;
+        background-size: 70px;
+    }
+    .need-waste-time::before {
+        background: url(../img/we-offen_sprites.png) 2px -662px;
+        background-size: 70px;
+    }
+    .beatiful::before {
+        background: url(../img/we-offen_sprites.png) 2px 561px;
+        background-size: 70px;
+    }
+}
+@media screen and (max-width:1044px){
+    .outside {
+        width: 96%;
+        height: 397px;
+    }
+    .under-color {
+        height: 398px;
+    }
+    .outside-title {
+        font-size: 39px;
+    }
+    .outside-text {
+        font-size: 22px;
+        margin-bottom: 14px;
+    }
+    .girl {
+        width: 58%;
+        top: -59px;
+        right: -207px;
+    }
+    .number {
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 997px){
+    .outside {
+        width: 96%;
+        height: 397px;
+    }
+    .under-color {
+        width: 120%;
+        height: 398px;
+    }
+    .outside-title {
+        font-size: 39px;
+    }
+    .outside-text {
+        font-size: 22px;
+        margin-bottom: 14px;
+    }
+    .girl {
+        width: 58%;
+        top: -59px;
+        right: -143px;
+    }
+    .number {
+        margin-bottom: 15px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 770px){
+    .info-card{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 985px){
+    .outside {
+        width: 99%;
+    }
+    .girl {
+        width: 56%;
+        top: -49px;
+        right: -182px;
+    }
+}
+@media screen and (max-width: 525px){
+    .map-icons{
+        display: none;
+    }
+}
+
+@media screen and (max-width:944px){
+    .outside-block {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .girl {
+        display: none;
+    }
+    .outside {
+        width: 86%;
+    }
+}
+@media screen and (max-width:820px){
+    .outside {
+        width: 101%;
+    }
+    .outside-text {
+        font-size: 17px;
+    }
+    .row-block{
+        flex-wrap: wrap;
+    }
+    .under-color{
+        background: none;
+    }
+}
+@media screen and (max-width:813px){
+    .girl{
+        right: -214px;
+    }
+    .outside {
+        width: 104%;
+        height: auto;
+    }
+    .outside-text {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:773px){
+    .block-form-img{
+        flex-wrap: wrap;
+    }
+    .number{
+        margin-bottom: 50px;
+    }
+    .girl {
+        right: -100px;
+    }
+    .what-offer-title{
+        padding-top: 58px;
+    }
+}
+@media screen and (max-width:731px){
+    .block-form-img {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:758px){
+    .card{
+        margin-right: 143px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 632px){
+   .girl{
+    display: none;
+   }
+}
+
+
+@media screen and (max-width:942px){
+    .number{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width:958px){
+    .girl{
+        right: -171px;
+    }
+    .what-offer-title {
+        padding-top: 58px;
+    }
+    .main-block-info {
+        padding: 108px 162px 103px 0;
+}
+    .kristina-kerisin-bag {
+    padding: 25px
+    }
+    .cistt-bag{
+        margin-bottom: 35px;
+    }
+}
+@media screen and (max-width:1125px){
+    .walking-title {
+        font-size: 46px;
+    }
+    .map-icons{
+        font-size: 23px;
+    }
+    .Walking-from-metro-info {
+        flex-wrap: wrap;
+    }
+    .map{
+        width: 115%;
+    }
+}
+@media screen and (max-width:770px){
+    .book-number {
+        padding: 23px 73px 33px 38px;
+    }
+    .book-party-link-text {
+        flex-wrap: wrap;
+    }
+    .main-block{
+        background-image: none;
+    }
+}
+@media screen and (max-width:480px){
+    .book-party-title {
+        font-size: 27px;
+    }
+    .and-number-map{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:468px){
+    .form-btn{
+        padding: 27px 56px;
+ 
+    }
+    .number{
+        padding: 29px 51px 29px 38px;
+    }
+    .kristina-block{
+        padding: 0 8px;
+
+    }
+}
+@media screen and (max-width:499px){
+    .map-info{
+        flex-wrap: wrap;
+    }
+    .map-infos{
+        margin-bottom: 15px;
+    }
+    .book-party-title {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:446px){
+    .number {
+        padding: 19px 15px 19px 15px;
+    }
+    .form-btn {
+        padding: 22px 25px;
+    }
+    .outside-title {
+        font-size: 30px;
+    }
+    .what-offer-title {
+        padding-top: 13px;
+        font-size: 39px;
+    }
+
+
+}
+
+
+
